@@ -9,7 +9,9 @@
              "カレー",
             "とんかつ",
             "ラーメン",
-            "チャーハン"
+            "チャーハン",
+            "ケーキ",
+            "茶碗蒸し"
             };
 
             int randomIndex = random.Next(select.Length);
