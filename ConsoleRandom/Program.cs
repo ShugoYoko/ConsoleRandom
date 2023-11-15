@@ -5,11 +5,11 @@
         static void Main(string[] args)
         {
             Random random = new Random();
-            string[] select = new string[]{ 
-             "Cu",
+            string[] select = new string[]{
+            "Cu",
             "Mn",
             "Fe",
-            "Co_"
+            "Co"
             };
 
             int randomIndex = random.Next(select.Length);
