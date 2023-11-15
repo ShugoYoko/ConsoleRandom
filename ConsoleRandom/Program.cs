@@ -6,10 +6,10 @@
         {
             Random random = new Random();
             string[] select = new string[]{ 
-             "カレー",
-            "とんかつ",
-            "ラーメン",
-            "チャーハン"
+             "Cu",
+            "Mn",
+            "Fe",
+            "Co_"
             };
 
             int randomIndex = random.Next(select.Length);
