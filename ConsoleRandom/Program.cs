@@ -5,13 +5,11 @@
         static void Main(string[] args)
         {
             Random random = new Random();
-            string[] select = new string[]{ 
-             "カレー",
-            "とんかつ",
-            "ラーメン",
-            "チャーハン",
-            "ケーキ",
-            "茶碗蒸し"
+            string[] select = new string[]{
+            "Cu",
+            "Mn",
+            "Fe",
+            "Co"
             };
 
             int randomIndex = random.Next(select.Length);
